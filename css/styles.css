@@ -65,15 +65,43 @@ body {
     max-width: 1200px;
     margin: 0 auto;    
 }
+/*
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+}
+*/
+header{
+
+    max-width: 100%;
+  
+    
+}
 
 nav {
     position: fixed;
     background-color:#af599e;
     height:90px;
     width: 100%;
-    margin-bottom:50px;
+    margin-bottom:80px;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
+    padding: 5px;
+    margin-left: center;
+
+
+
+  
+
+   
+                    
+    text-align:center;
+    left:0;
+ 
+
 
 }
 
@@ -84,7 +112,7 @@ nav {
 }
     nav ul li {
     list-style:none;
-    display:inline
+    display:inline;
 
 }
     nav ul li a{
@@ -110,7 +138,12 @@ nav {
         font-family: 'Lato', sans-serif; 
     }
 
-    .foto {
+#Inicio{
+align-content: center;
+
+}
+
+.foto {
     align-items: center;
     border-radius: 50%;
     max-width: 200px;
@@ -119,6 +152,10 @@ nav {
     margin-right: auto;
     margin-top: 0;
     padding: 10%;
+    padding-bottom: 25px;
+    line-height: 50%;
+    justify-content: center;
+    
 }
 
     .titulo {
@@ -134,8 +171,9 @@ nav {
     font-family: 'Poltawski Nowy', serif;
 }
     
+
     .articulo {
-    padding: 3%;
+    /*padding: 3%;*/
     border-radius: 4px;
     /*background-color: plum;*/
     background-color: rgba(175, 89, 158, 0.3);
@@ -143,6 +181,7 @@ nav {
     font-family: 'Lato', sans-serif;
     margin-left: 15%;
     margin-right: 15%;
+    padding: 50px 0;
 }
         
     article {
@@ -198,16 +237,20 @@ nav {
 }
 
     footer {
-    position:absolute;
+   
     height:90px;
     line-height:50px;
     background:#af599e;
-    color:#fbfbfb;                    ;
+    color:#fbfbfb;                    
     text-align:center;
     left:0;
     width:100%;
+    display: flex;
+	justify-content: center;
+
 }
 html {  
     min-height:100vh;
 }
+
            
